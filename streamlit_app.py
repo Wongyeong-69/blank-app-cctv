@@ -7,7 +7,7 @@ import pandas as pd
 st.title("진주시 CCTV 현황")
 
 # 인코딩 오류 피하려면 아래처럼 'euc-kr'로!
-df = pd.read_csv("경상남도 진주시_CCTV위치정보_20250501.csv", encoding='euc-kr')
+df = pd.read_csv("경상남도 진주시_CCTV위치정보_20250501 (1).csv", encoding='euc-kr')
 
 st.dataframe(df, height=200)
 
